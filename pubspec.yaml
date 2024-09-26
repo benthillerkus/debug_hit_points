@@ -1,5 +1,5 @@
 name: debug_hit_points
-description: "Visually debug where a Widget can be tapped"
+description: "Renders a dot matrix on top of your Widget, displaying exactly where hit tests succeed"
 version: 1.0.0+1
 homepage: https://github.com/benthillerkus/debug_hit_points
 repository: https://github.com/benthillerkus/debug_hit_points
