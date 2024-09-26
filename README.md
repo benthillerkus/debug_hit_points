@@ -1,5 +1,5 @@
-Ever wondered why your custom slider doesn't register all taps? Or maybe it seems you can tap everywhere, even though your button should be much smaller?
-`package:debug_hit_points` renders a dot matrix on top of your Widget, displaying exactly where hit tests succeed.
+Ever wondered why your custom slider doesn't register all taps? Or maybe it seems you can tap everywhere, even though your button should be much smaller?<br>
+`package:debug_hit_points` renders a dot matrix on top of your Widget, displaying exactly where hit tests succeeds.
 
 ## Features
 
