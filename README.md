@@ -41,6 +41,8 @@ Scaffold(
 )
 ```
 
+![Example](https://raw.githubusercontent.com/benthillerkus/debug_hit_points/main/screenshot.webp)
+
 ## Additional information
 
 If you run into any issues or have some suggestions, please open an issue on [GitHub](https://github.com/benthillerkus/debug_hit_points/issues).
