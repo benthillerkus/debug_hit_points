@@ -1,39 +1,46 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Ever wondered why your custom slider doesn't register all taps? Or maybe it seems you can tap everywhere, even though your button should be much smaller?
+`package:debug_hit_points` renders a dot matrix on top of your Widget, displaying exactly where hit tests succeed.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Can be wrapped around any Box widget
+- Per default disabled in non-debug builds
+- Point grid resolution, color and point size can be customized
+- Try different `HitTestBehavior` modes
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+In your `pubspec.yaml` add:
+
+```yaml
+dependencies:
+  debug_hit_points: ^1.0.0
+```
+
+or run
+
+```bash
+flutter pub add debug_hit_points
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
+Import the package
 ```dart
-const like = 'sample';
+import 'package:debug_hit_points/debug_hit_points.dart';
+```
+
+And wrap your widget with `DebugHitPoints`
+```dart
+Scaffold(
+  body: DebugHitPoints(
+    color: Colors.red,
+    resolution: 10,
+    child: FlutterLogo(),
+  ),
+)
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+If you run into any issues or have some suggestions, please open an issue on [GitHub](https://github.com/benthillerkus/debug_hit_points/issues).
