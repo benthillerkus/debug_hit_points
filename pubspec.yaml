@@ -1,6 +1,6 @@
 name: debug_hit_points
 description: "Renders a dot matrix on top of your Widget, displaying exactly where hit tests succeed"
-version: 1.0.0+1
+version: 1.0.0+2
 homepage: https://github.com/benthillerkus/debug_hit_points
 repository: https://github.com/benthillerkus/debug_hit_points
 topics: [debug, indicator, mesh, dotted, gesture]
