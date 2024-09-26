@@ -1,7 +1,9 @@
 name: debug_hit_points
 description: "Visually debug where a Widget can be tapped"
 version: 1.0.0
-homepage: https://gihub.com/benthillerkus/
+homepage: https://gihub.com/benthillerkus/debug_hit_points
+repository: https://gihub.com/benthillerkus/debug_hit_points
+topics: [debug, indicator, mesh, dotted, gesture]
 
 environment:
   sdk: ^3.0.0
